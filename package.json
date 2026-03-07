@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-     "redis": "redis-server",
+    "redis": "redis-server",
     "dev:full": "concurrently \"npm run redis\" \"npm run dev\""
   },
   "keywords": [],
@@ -14,7 +14,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-   "bcryptjs": "^3.0.3",
+    "bcryptjs": "^3.0.3",
     "compression": "^1.8.1",
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
